@@ -5,12 +5,15 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { Lession2Component } from './lession2/lession2.component';
 import { Lession1Component } from './lession1/lession1.component';
+import { HeaderTemplateComponent } from './HeaderTemplate/HeaderTemplate.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     Lession2Component,
     Lession1Component,
+    HeaderTemplateComponent,
   ],
   imports: [
     BrowserModule,
