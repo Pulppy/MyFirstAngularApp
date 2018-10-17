@@ -36,7 +36,6 @@ export class Lession1Component implements OnInit {
 	onGetData(){
 		if(this.serverHost != '' && this.serverPass != ''){
 			if(this.serverPort > 1000){
-				console.log(this.serverHost + this.serverPass + this.serverPort);
 				this. isDisplay = true;
 				this.serverStatus = 'Online';
 				this.serverCreationStatus = 'Server start with the port: ' + this.serverPort;
